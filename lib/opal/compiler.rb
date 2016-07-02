@@ -248,7 +248,7 @@ module Opal
       res
     end
 
-    # Temporary varibales will be needed from time to time in the
+    # Temporary varibles will be needed from time to time in the
     # generated code, and this method will assign (or reuse) on
     # while the block is yielding, and queue it back up once it is
     # finished. Variables are queued once finished with to save the
